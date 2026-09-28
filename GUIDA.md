@@ -42,8 +42,10 @@ Se Windows mostra l'avviso SmartScreen: *Ulteriori informazioni* → *Esegui com
 **Aggiornare** — non devi fare niente. All'avvio di Revit BIMit controlla se c'è una nuova versione,
 la scarica da solo e la installa **quando chiudi Revit**, senza finestre e senza permessi di
 amministratore. La volta dopo, al primo comando, un messaggio ti dice *BIMit è stato aggiornato* e
-cosa è cambiato. Nuovi pulsanti e funzioni arrivano così, da soli. Alcuni aggiornamenti sono
-obbligatori: finché non chiudi e riapri Revit, i comandi non partono.
+cosa è cambiato. Nuovi pulsanti e funzioni arrivano così, da soli.
+
+Alcuni aggiornamenti sono **obbligatori**: BIMit te lo dice al primo comando e, se serve, ti fa
+scaricare la nuova versione con un clic. I comandi ripartono dopo che hai chiuso e riaperto Revit.
 
 **Disinstallare** — *Impostazioni di Windows* → *App* → *App installate* → **BIMit** →
 *Disinstalla*. I parametri già scritti nei modelli restano.
@@ -419,7 +421,7 @@ mai dei modelli.
 | Pulsante | Cosa fa |
 |---|---|
 | **Scarica e installa alla chiusura** | Di solito non serve: BIMit lo fa da solo all'avvio. Scarica la nuova versione, ne verifica l'integrità e la installa quando chiudi Revit. I modelli non vengono toccati. Se è già scaricata, la finestra lo dice. |
-| **Più tardi** | Chiude. L'aggiornamento si installa comunque alla chiusura di Revit. |
+| **Più tardi** | Chiude. Se l'aggiornamento è già scaricato (*Aggiornamento pronto*) si installa comunque quando chiudi Revit; altrimenti BIMit riprova da solo al prossimo avvio. |
 
 ---
 
@@ -435,6 +437,10 @@ con nomi non riconosciuti → *Tabella di conversione* del livello, *Suggerisci 
 **Un parametro «esiste come parametro di tipo/istanza: non verrà scritto».** Nel progetto c'è già un
 parametro con quel nome ma con l'altro legame: in *Configura* cambia la casella *Parametro di tipo*
 o usa un altro nome.
+
+**L'aggiornamento non si installa.** Si installa quando si chiude **l'ultimo** Revit aperto sul PC
+(anche di un'altra versione): chiudili tutti e riapri. Se vedi ancora la versione vecchia, in
+*Account* premi *Verifica aggiornamenti* e manda un *Feedback* con il log allegato.
 
 **Ho scritto e voglio tornare indietro.** Un solo **Ctrl+Z** in Revit annulla tutta la scrittura.
 
