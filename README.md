@@ -22,6 +22,11 @@ Durante la **beta** BIMit è gratuito.
 
 Se Windows mostra l'avviso SmartScreen, scegli *Ulteriori informazioni* → *Esegui comunque*.
 
+## Come si usa
+
+📘 **[Guida di BIMit](GUIDA.md)**: ogni finestra e ogni pulsante, con le immagini. Si apre anche dal
+pulsante **Guida** in alto in ogni finestra del plugin.
+
 ## Aggiornamenti
 
 BIMit controlla da solo se c'è una nuova versione e te la propone: la scarica, ne verifica
