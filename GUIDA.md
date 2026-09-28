@@ -1,6 +1,7 @@
 # Guida di BIMit
 
-BIMit assegna la **WBS** agli elementi dei modelli Autodesk Revit (2023, 2024, 2025, 2026).
+BIMit assegna la **WBS** agli elementi dei modelli Autodesk Revit (2023, 2024, 2025, 2026) ed
+esporta tavole e viste in PDF, DWG, NWC e IFC.
 Questa guida mostra ogni finestra e spiega ogni pulsante, nell'ordine in cui li usi.
 
 > Le immagini sono fatte sul modello di esempio di Autodesk *Snowdon Towers Sample HVAC*. Nel tuo
@@ -19,8 +20,9 @@ Questa guida mostra ogni finestra e spiega ogni pulsante, nell'ordine in cui li 
 8. [Anteprima](#8-anteprima)
 9. [Scrivi nel modello](#9-scrivi-nel-modello)
 10. [Il dizionario Excel](#10-il-dizionario-excel)
-11. [Account, Feedback, Aggiornamento](#11-account-feedback-aggiornamento)
-12. [Domande frequenti](#12-domande-frequenti)
+11. [Esporta tavole e viste](#11-esporta-tavole-e-viste)
+12. [Account, Feedback, Aggiornamento](#12-account-feedback-aggiornamento)
+13. [Domande frequenti](#13-domande-frequenti)
 
 **Il flusso in breve:** apri *WBS* → scegli *WBS normativa* (o *Manuale*) → controlla le categorie →
 correggi quello che serve in *Configura* → *Anteprima* → *Scrivi nel modello*.
@@ -88,6 +90,7 @@ Se hai già un account ma manca il profilo, BIMit ti chiede solo i dati mancanti
 |---|---|
 | ![](guida/img/ribbon_wbs.png) **WBS** | Apre la [finestra WBS](#5-la-finestra-wbs): configurazione, anteprima, scrittura. |
 | ![](guida/img/ribbon_anteprima.png) **Anteprima** | Apre subito l'[anteprima](#8-anteprima) con la configurazione collegata al modello. **Shift + clic**: solo gli elementi della vista attiva. |
+| ![](guida/img/ribbon_esporta.png) **Esporta** | Tavole e viste in PDF, DWG, NWC e IFC ([Esporta](#11-esporta-tavole-e-viste)). |
 | ![](guida/img/ribbon_account.png) **Account** | Accesso, profilo, privacy, aggiornamenti ([Account](#account)). |
 
 *Anteprima* funziona solo dopo che hai salvato una configurazione per il modello dalla finestra WBS.
@@ -386,7 +389,66 @@ compili (a mano, copiando la tabella del committente, o con un assistente IA) e 
 
 ---
 
-## 11. Account, Feedback, Aggiornamento
+## 11. Esporta tavole e viste
+
+Tavole e viste in **PDF, DWG, NWC e IFC** in un colpo solo, con gli esportatori di Revit: niente
+stampante PDF, niente AutoCAD. Si apre con il pulsante **Esporta** della scheda BIMit.
+
+![Esporta](guida/img/esporta.png)
+
+### A sinistra: cosa esportare
+
+| Elemento | Cosa fa |
+|---|---|
+| **Tavole · Viste** | L'elenco delle tavole o delle viste (3D, piante, sezioni, prospetti, legende…). Puoi sceglierne da entrambi gli elenchi nella stessa esportazione. |
+| **🔍 casella di ricerca** | Filtra per numero o nome. |
+| **Set** | Mostra solo le tavole di un set di stampa del progetto. |
+| **Solo nuove o con revisione cambiata** | Nasconde quelle già esportate con la stessa revisione: dopo una nuova revisione trovi subito cosa riconsegnare. |
+| **Casella a sinistra di ogni riga** | Sceglie la tavola. Con più righe evidenziate (Ctrl o Shift), **Spazio** le spunta tutte. |
+| **Stato** | *Nuova* (mai esportata), *Revisione cambiata*, *Esportata il …*. |
+| **Seleziona tutte · Nessuna** | Spunta o toglie tutte quelle mostrate. |
+
+### A destra: come esportare
+
+**Formati**
+
+| Formato | Opzioni |
+|---|---|
+| **PDF** | *Colori* (a colori, scala di grigi, bianco e nero); *Vettoriale* (consigliato: linee nitide, file leggeri); *Nascondi piani di riferimento, scope box, ritagli ed etichette non usate*; *Un solo PDF con tutte le tavole scelte*, con il suo nome. Il formato del foglio è quello di ogni tavola. |
+| **DWG** | *Impostazione*: le impostazioni di esportazione DWG del progetto (layer, colori, unità); *Viste unite nel file*: un solo DWG per tavola, senza riferimenti esterni; *Elimina i file .pcp* che Revit scrive accanto a ogni DWG. |
+| **NWC** | Dalle **viste 3D**: *Coordinate condivise*, *Dividi per livelli*, *ID degli elementi*, *Includi i modelli collegati*. Serve l'esportatore Navisworks per Revit (se manca, BIMit lo dice). |
+| **IFC** | Dalle **viste 3D**: *Versione* (IFC 2x3 CV 2.0, IFC4 Reference View, IFC4 Design Transfer View), *Solo gli elementi visibili nella vista*, *Proprietà comuni IFC*, *Proprietà di Revit*, *Quantità di base*, *Coordinate condivise*. |
+
+**Nome dei file** — testo fisso e **{campi}**, uno schema per le tavole e uno per le viste.
+*Inserisci campo…* aggiunge un campo dove si trova il cursore: *Numero tavola*, *Nome tavola*,
+*Revisione*, *Data revisione*, *Nome vista*, *Numero progetto*, *Nome progetto*, *Nome cliente*,
+*Data di oggi*… oppure *Parametro…* per qualsiasi parametro della tavola (o delle informazioni
+progetto), per esempio `{Parametro: Codice elaborato}`. Sotto, **Esempi** mostra i nomi veri. Un campo
+vuoto non lascia separatori doppi e i caratteri non ammessi da Windows vengono tolti.
+
+**Cartella**
+
+| Opzione | Cosa fa |
+|---|---|
+| **Cartella · Sfoglia…** | Dove salvare. |
+| **Una sottocartella per formato** | PDF, DWG, NWC, IFC in cartelle separate. |
+| **Aggiorna l'elenco elaborati (Excel)** | Scrive *Elenco elaborati.xlsx* nella cartella: numero, titolo, revisione, data revisione, file PDF/DWG/NWC/IFC e data di esportazione di tutto quello esportato con questo preset. |
+| **Apri la cartella alla fine** | Apre la cartella quando ha finito. |
+
+### In basso
+
+| Elemento | Cosa fa |
+|---|---|
+| **Apri preset… · Salva preset con nome…** | Le impostazioni (formati, nomi, cartella) e lo storico delle esportazioni sono un file `.json`: salvalo nella cartella del progetto e i colleghi lo aprono con *Apri preset…*. BIMit lo collega al modello e lo salva da solo. |
+| **Barra di avanzamento** | Il file in corso (*PDF 3/20 · A101-…*). |
+| **Esporta N file** | Parte. Durante l'esportazione diventa **Interrompi**: si ferma dopo il file in corso. |
+| **Chiudi** | Chiude e ricorda le impostazioni. |
+
+Alla fine BIMit apre la cartella; se qualche file non è riuscito ti dice quale e perché.
+
+---
+
+## 12. Account, Feedback, Aggiornamento
 
 ### Account
 
@@ -425,7 +487,7 @@ mai dei modelli.
 
 ---
 
-## 12. Domande frequenti
+## 13. Domande frequenti
 
 **Anteprima e Scrivi sono grigi.** Nessuna categoria inclusa, oppure la configurazione ha un errore:
 leggi il messaggio in basso nella finestra WBS (passa il mouse per vederli tutti).
@@ -446,6 +508,9 @@ o usa un altro nome.
 
 **Come passo la configurazione a un collega?** *Salva con nome…* e mandagli il file `.json`: lui lo
 apre con *Apri…*.
+
+**Il PDF o il DWG non si crea.** Il file con lo stesso nome è aperto (in un lettore PDF o in
+AutoCAD): chiudilo e riprova. Il messaggio finale dice quale file non è riuscito.
 
 **Il modello è di sola lettura.** BIMit mostra l'anteprima ma non scrive: apri il modello in
 modifica (o crea il locale, se è condiviso).

@@ -4,6 +4,9 @@ BIMit assegna la **WBS** agli elementi del modello Revit: parti dalla WBS normat
 tua struttura, definisci i parametri una volta per tutto il progetto, cambia solo quello che serve
 in ogni categoria, controlla l'anteprima e scrivi nel modello.
 
+Con **Esporta**, tavole e viste in PDF, DWG, NWC e IFC in un colpo solo: nomi dei file dai parametri,
+solo le tavole nuove o con revisione cambiata, elenco elaborati in Excel, preset da condividere.
+
 Durante la **beta** BIMit è gratuito.
 
 ## Requisiti
