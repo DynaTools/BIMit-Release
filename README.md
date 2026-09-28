@@ -29,9 +29,8 @@ pulsante **Guida** in alto in ogni finestra del plugin.
 
 ## Aggiornamenti
 
-BIMit controlla da solo se c'è una nuova versione e te la propone: la scarica, ne verifica
-l'integrità e la installa quando chiudi Revit. Alcuni aggiornamenti possono essere necessari per
-continuare a usare il plugin.
+Automatici: BIMit scarica da solo la nuova versione, ne verifica l'integrità e la installa quando
+chiudi Revit. Alla riapertura trovi le novità, compresi eventuali nuovi pulsanti.
 
 ## Disinstallazione
 

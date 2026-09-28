@@ -39,10 +39,11 @@ correggi quello che serve in *Configura* → *Anteprima* → *Scrivi nel modello
 
 Se Windows mostra l'avviso SmartScreen: *Ulteriori informazioni* → *Esegui comunque*.
 
-**Aggiornare** — all'avvio di Revit BIMit controlla se c'è una nuova versione; quando c'è, in alto
-in ogni finestra compare **Aggiorna a …** (vedi [Aggiornamento](#aggiornamento)). La nuova versione
-si installa da sola quando chiudi Revit.
-Alcuni aggiornamenti sono obbligatori: finché non aggiorni, i comandi non partono.
+**Aggiornare** — non devi fare niente. All'avvio di Revit BIMit controlla se c'è una nuova versione,
+la scarica da solo e la installa **quando chiudi Revit**, senza finestre e senza permessi di
+amministratore. La volta dopo, al primo comando, un messaggio ti dice *BIMit è stato aggiornato* e
+cosa è cambiato. Nuovi pulsanti e funzioni arrivano così, da soli. Alcuni aggiornamenti sono
+obbligatori: finché non chiudi e riapri Revit, i comandi non partono.
 
 **Disinstallare** — *Impostazioni di Windows* → *App* → *App installate* → **BIMit** →
 *Disinstalla*. I parametri già scritti nei modelli restano.
@@ -99,9 +100,8 @@ In alto in ogni finestra:
 |---|---|
 | **BIMit · titolo** | Il nome della finestra; sotto, il modello o la configurazione. Il pallino **•** dopo il nome vuol dire *modifiche non salvate*. |
 | **v0.5.0** | La versione installata. |
-| **Aggiorna a …** | Compare solo quando c'è una nuova versione: apre la finestra [Aggiornamento](#aggiornamento). |
+| **Aggiorna a … / Aggiornamento pronto** | Compare solo quando c'è una nuova versione. *Aggiornamento pronto*: è già scaricata e si installa quando chiudi Revit. Apre la finestra [Aggiornamento](#aggiornamento). |
 | **Guida** | Apre questa guida. |
-| **Libri** | Apre la pagina dei libri *BIM Illustrato* sul sito dell'autore. |
 | **Feedback** | Scrivi un problema o un'idea ([Feedback](#feedback)). |
 | **BETA** | Il tuo piano. *ACCEDI* se non hai fatto l'accesso. |
 | **Cerchio con le iniziali** | Apre l'*Account* (o l'accesso). |
@@ -399,7 +399,7 @@ compili (a mano, copiando la tabella del committente, o con un assistente IA) e 
 | **Versione · Revit** | Versione di BIMit e di Revit, e lo stato degli aggiornamenti. |
 | **Verifica aggiornamenti** | Controlla adesso se c'è una nuova versione. |
 | **Cartella dei log** | Apre la cartella del registro tecnico (utile all'assistenza). |
-| **BIM ILLUSTRATO · Scopri i libri · unibim.io** | I libri, i corsi e i video dell'autore di BIMit. |
+| **unibim.io** | Apre il sito. |
 | **Esci** | Esce dall'account su questo PC. |
 | **Elimina account…** | Cancella subito e per sempre account, profilo, statistiche e messaggi. Chiede conferma. |
 | **Chiudi** | Chiude. |
@@ -418,8 +418,8 @@ mai dei modelli.
 
 | Pulsante | Cosa fa |
 |---|---|
-| **Scarica e installa alla chiusura** | Scarica la nuova versione, ne verifica l'integrità e la installa quando chiudi Revit. I modelli non vengono toccati. |
-| **Più tardi** | Chiude: il pulsante *Aggiorna a …* resta nell'intestazione. Se l'aggiornamento è obbligatorio, i comandi restano bloccati finché non aggiorni. |
+| **Scarica e installa alla chiusura** | Di solito non serve: BIMit lo fa da solo all'avvio. Scarica la nuova versione, ne verifica l'integrità e la installa quando chiudi Revit. I modelli non vengono toccati. Se è già scaricata, la finestra lo dice. |
+| **Più tardi** | Chiude. L'aggiornamento si installa comunque alla chiusura di Revit. |
 
 ---
 
