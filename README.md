@@ -10,7 +10,7 @@ Durante la **beta** BIMit è gratuito.
 
 - Windows 10 o 11
 - Autodesk Revit 2023, 2024, 2025 o 2026
-- Un account DynaTools (lo stesso di UniBIM), che crei dal plugin al primo avvio
+- Un account BIMit, che crei dal plugin al primo avvio
 
 ## Installazione
 

@@ -20,7 +20,7 @@ inviati a nessun server.
 
 | Dati | Quando | Perché | Base giuridica |
 |---|---|---|---|
-| E-mail e password dell'account DynaTools | Registrazione e accesso | Identificarti e proteggere l'accesso | Esecuzione del contratto (art. 6.1.b) |
+| E-mail e password dell'account BIMit | Registrazione e accesso | Identificarti e proteggere l'accesso | Esecuzione del contratto (art. 6.1.b) |
 | Nome, cognome, paese, città | Registrazione, profilo | Gestire l'account e l'assistenza, conoscere la diffusione del prodotto | Esecuzione del contratto (art. 6.1.b) |
 | Piano, data di accettazione dei termini | Registrazione | Gestire la licenza | Esecuzione del contratto (art. 6.1.b) |
 | Consenso al marketing e sua data | Se lo dai (facoltativo) | Inviarti novità, guide e offerte su BIMit e sugli altri prodotti DynaTools | Consenso (art. 6.1.a) |
@@ -53,16 +53,13 @@ Sul tuo computer BIMit salva, nella cartella `%LOCALAPPDATA%\BIMit`, la sessione
 Solo il titolare. I dati non vengono venduti né ceduti a terzi. Google agisce come responsabile
 del trattamento per l'infrastruttura.
 
-L'account DynaTools è condiviso con UniBIM, l'altro plugin DynaTools: con lo stesso account
-accedi a entrambi.
-
 ## I tuoi diritti
 
 Puoi chiedere in qualsiasi momento l'accesso ai tuoi dati, la rettifica, la cancellazione, la
 limitazione, la portabilità, e opporti al trattamento basato sul legittimo interesse.
 
 - **Revocare il consenso al marketing** o disattivare le statistiche: *BIMit* → *Account*.
-- **Eliminare l'account e tutti i dati** (profilo, statistiche, messaggi e account DynaTools):
+- **Eliminare l'account e tutti i dati** (profilo, statistiche, messaggi e account):
   *BIMit* → *Account* → *Elimina account*. L'operazione è immediata e non si può annullare.
 - Per tutte le altre richieste scrivi a paulo.giavoni@gmail.com: rispondiamo entro 30 giorni.
 
