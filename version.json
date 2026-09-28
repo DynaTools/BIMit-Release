@@ -1,0 +1,13 @@
+{
+    "latest":  "0.5.0",
+    "minimum":  "",
+    "disabled":  false,
+    "message":  "",
+    "notes":  "Prima beta pubblica di BIMit: WBS normativa o manuale, parametri per tutto il progetto con eccezioni per categoria, dizionario Excel da compilare e caricare, anteprima e scrittura nel modello. Revit 2023-2026.",
+    "published":  "2026-09-28",
+    "msi":  {
+                "url":  "https://github.com/DynaTools/BIMit-Release/releases/download/v0.5.0/BIMit_Setup_0.5.0.msi",
+                "sha256":  "6a08cecea86fa6b6e273d8fb781a2dc0a41e83dc9decab67156aa36ef1fda522",
+                "size":  1138688
+            }
+}
