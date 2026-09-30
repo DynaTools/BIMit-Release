@@ -1,13 +1,13 @@
 {
-  "latest": "0.7.0",
+  "latest": "0.7.1",
   "minimum": "",
   "disabled": false,
   "message": "",
-  "notes": "Novità: Claude (MCP) — un pulsante nella scheda BIMit collega Claude (Claude Desktop, Claude Code) con il tuo account: Claude usa tutti gli strumenti di BIMit sul modello aperto. Nuovi pannelli Parametri, Modello e MEP; Esporta tavole e viste in PDF, DWG, NWC e IFC; aggiornamenti automatici; icone con i colori di unibim.io.",
+  "notes": "Nuovo pannello MCP Server: MCP On / MCP Off accende e spegne il collegamento con Claude (verde acceso, rosso spento); Config MCP copia il prompt che collega Claude Code a BIMit e ne autorizza gli strumenti.",
   "published": "2026-09-30",
   "msi": {
-    "url": "https://github.com/DynaTools/BIMit-Release/releases/download/v0.7.0/BIMit_Setup_0.7.0.msi",
-    "sha256": "a1aab6ccb16566871a36d8bca33a52ca60e1a1831cc56ee3084bc3eeac691bd5",
-    "size": 2592768
+    "url": "https://github.com/DynaTools/BIMit-Release/releases/download/v0.7.1/BIMit_Setup_0.7.1.msi",
+    "sha256": "1daa34211ed15575f576d408a959d3a40c2e6bd1bf0ff617912668d800f8df4a",
+    "size": 2613248
   }
 }
