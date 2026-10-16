@@ -1,13 +1,13 @@
 {
-  "latest": "0.7.1",
+  "latest": "1.0.0",
   "minimum": "",
   "disabled": false,
   "message": "",
-  "notes": "Nuovo pannello MCP Server: MCP On / MCP Off accende e spegne il collegamento con Claude (verde acceso, rosso spento); Config MCP copia il prompt che collega Claude Code a BIMit e ne autorizza gli strumenti.",
-  "published": "2026-09-30",
+  "notes": "BIMit 1.0: Revit 2022–2026. Modalità sviluppatore (pulsante DEV nel pannello MCP Server): Claude esegue C# e Python dentro Revit con tutta la API, cerca nella documentazione della API, ispeziona qualsiasi oggetto ed esegue la tua DLL senza riavviare Revit. Più Revit collegati insieme (anche versioni diverse): Claude li vede tutti e li usa uno alla volta o tutti insieme. Ogni strumento lavora anche su un modello aperto non attivo.",
+  "published": "2026-10-16",
   "msi": {
-    "url": "https://github.com/DynaTools/BIMit-Release/releases/download/v0.7.1/BIMit_Setup_0.7.1.msi",
-    "sha256": "1daa34211ed15575f576d408a959d3a40c2e6bd1bf0ff617912668d800f8df4a",
-    "size": 2613248
+    "url": "https://github.com/DynaTools/BIMit-Release/releases/download/v1.0.0/BIMit_Setup_1.0.0.msi",
+    "sha256": "60c5a5330368be53b7e6d618e1890260b3a3532b28d7d43acb56ab0e11a93cfb",
+    "size": 19685376
   }
 }
