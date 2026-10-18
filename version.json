@@ -1,17 +1,17 @@
 {
-  "latest": "1.1.2",
+  "latest": "1.1.3",
   "minimum": "",
   "disabled": false,
   "message": "",
-  "notes": "Aggiornamenti più affidabili e molto più veloci da installare; una notifica di Windows dice quando BIMit è aggiornato e puoi riaprire Revit.",
+  "notes": "Nuovo installer BIMit_Setup.exe: scegli la lingua (italiano, português, English) e se installare solo per te (senza amministratore) o per tutti gli utenti del PC (amministratore). Aggiornamento manuale dal plugin: «Scarica e installa», poi «Chiudi Revit e aggiorna».",
   "published": "2026-10-18",
-  "notes_pt": "Atualizações mais confiáveis e muito mais rápidas de instalar; uma notificação do Windows avisa quando o BIMit foi atualizado e você pode abrir o Revit de novo.",
-  "notes_en": "More reliable updates that install much faster; a Windows notification tells you when BIMit is updated and you can reopen Revit.",
+  "notes_pt": "Novo instalador BIMit_Setup.exe: escolha o idioma (italiano, português, English) e se instala só para você (sem administrador) ou para todos os usuários do PC (administrador). Atualização manual pelo plugin: «Baixar e instalar» e depois «Fechar o Revit e atualizar».",
+  "notes_en": "New BIMit_Setup.exe installer: choose the language (italiano, português, English) and whether to install just for you (no administrator) or for every user of the PC (administrator). Manual update from the plugin: «Download and install», then «Close Revit and update».",
   "message_pt": "",
   "message_en": "",
   "msi": {
-    "url": "https://github.com/DynaTools/BIMit-Release/releases/download/v1.1.2/BIMit_Setup_1.1.2.msi",
-    "sha256": "d21bdfcb2514cb0995f98e8c09b08404b95248a40bf43243fcbc41d0becce0cd",
-    "size": 20324352
+    "url": "https://github.com/DynaTools/BIMit-Release/releases/download/v1.1.3/BIMit_Setup_1.1.3.msi",
+    "sha256": "53e082d78115cb9ca68bdf9d01c48271d38cf5f89df9da1b1f053bda65df9565",
+    "size": 20348928
   }
 }
