@@ -1,17 +1,17 @@
 {
-  "latest": "1.1.1",
+  "latest": "1.1.2",
   "minimum": "",
   "disabled": false,
   "message": "",
-  "notes": "Correzione: l'aggiornamento automatico si installa anche se chiudi Revit prima che il download sia finito.",
+  "notes": "Aggiornamenti più affidabili e molto più veloci da installare; una notifica di Windows dice quando BIMit è aggiornato e puoi riaprire Revit.",
   "published": "2026-10-18",
-  "notes_pt": "Correção: a atualização automática é instalada mesmo se você fechar o Revit antes de o download terminar.",
-  "notes_en": "Fix: the automatic update now installs even if you close Revit before the download has finished.",
+  "notes_pt": "Atualizações mais confiáveis e muito mais rápidas de instalar; uma notificação do Windows avisa quando o BIMit foi atualizado e você pode abrir o Revit de novo.",
+  "notes_en": "More reliable updates that install much faster; a Windows notification tells you when BIMit is updated and you can reopen Revit.",
   "message_pt": "",
   "message_en": "",
   "msi": {
-    "url": "https://github.com/DynaTools/BIMit-Release/releases/download/v1.1.1/BIMit_Setup_1.1.1.msi",
-    "sha256": "eac8ef457f588bad434711764ee9fe1f78356ef89366a3effe362406d5823757",
-    "size": 20475904
+    "url": "https://github.com/DynaTools/BIMit-Release/releases/download/v1.1.2/BIMit_Setup_1.1.2.msi",
+    "sha256": "d21bdfcb2514cb0995f98e8c09b08404b95248a40bf43243fcbc41d0becce0cd",
+    "size": 20324352
   }
 }
