@@ -1,17 +1,17 @@
 {
-  "latest": "1.1.0",
+  "latest": "1.1.1",
   "minimum": "",
   "disabled": false,
   "message": "",
-  "notes": "BIMit 1.1: Esporta tavole e viste rinnovato — PDF combinato o separato con la carta dal cartiglio, DWG, DGN, DWF, NWC, IFC, immagini e dati delle tavole; nomi dai parametri, profili condivisibili, coda, report XLSX/CSV, esportazioni pianificate. BIMit ora è in italiano, português e English (la lingua di Revit, o scegli in Account).",
+  "notes": "Correzione: l'aggiornamento automatico si installa anche se chiudi Revit prima che il download sia finito.",
   "published": "2026-10-18",
-  "notes_pt": "BIMit 1.1: Exportar folhas e vistas renovado — PDF combinado ou separado com o papel do carimbo, DWG, DGN, DWF, NWC, IFC, imagens e dados das folhas; nomes por parâmetros, perfis compartilháveis, fila, relatório XLSX/CSV, exportações agendadas. O BIMit agora está em italiano, português e inglês (o idioma do Revit, ou escolha em Account).",
-  "notes_en": "BIMit 1.1: new Export sheets and views — combined or separate PDF with the paper from the title block, DWG, DGN, DWF, NWC, IFC, images and sheet data; file names from parameters, shareable profiles, queue, XLSX/CSV report, scheduled exports. BIMit now speaks Italian, Portuguese and English (Revit's language, or choose in Account).",
+  "notes_pt": "Correção: a atualização automática é instalada mesmo se você fechar o Revit antes de o download terminar.",
+  "notes_en": "Fix: the automatic update now installs even if you close Revit before the download has finished.",
   "message_pt": "",
   "message_en": "",
   "msi": {
-    "url": "https://github.com/DynaTools/BIMit-Release/releases/download/v1.1.0/BIMit_Setup_1.1.0.msi",
-    "sha256": "cd1bbb5e9d6ca2f707fba4a85d3e548739c011a9e93b091b90becfac3c8a82cf",
+    "url": "https://github.com/DynaTools/BIMit-Release/releases/download/v1.1.1/BIMit_Setup_1.1.1.msi",
+    "sha256": "eac8ef457f588bad434711764ee9fe1f78356ef89366a3effe362406d5823757",
     "size": 20475904
   }
 }
