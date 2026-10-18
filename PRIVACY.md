@@ -1,6 +1,6 @@
 # Informativa privacy di BIMit
 
-*Ultimo aggiornamento: 28 settembre 2026*
+*Ultimo aggiornamento: 18 ottobre 2026*
 
 Questa informativa spiega quali dati personali tratta il plugin BIMit per Autodesk Revit, perché
 e quali sono i tuoi diritti, ai sensi del Regolamento (UE) 2016/679 (GDPR).
@@ -12,9 +12,23 @@ E-mail: paulo.giavoni@gmail.com
 
 ## Cosa non raccogliamo
 
-**Il contenuto dei tuoi modelli non lascia mai il tuo computer.** BIMit legge e scrive i modelli
-Revit solo in locale: nomi dei file, elementi, parametri, valori e configurazioni WBS non vengono
-inviati a nessun server.
+**Il contenuto dei tuoi modelli non lascia mai il tuo computer per opera di BIMit.** BIMit legge e
+scrive i modelli Revit solo in locale: nomi dei file, elementi, parametri, valori e configurazioni
+WBS non vengono inviati ai nostri server.
+
+## Claude (MCP)
+
+Se attivi **Claude (MCP)** e usi un client MCP (Claude Desktop, Claude Code o altri), BIMit risponde
+alle richieste di quel client, e solo sul tuo computer: il collegamento è locale, riservato al tuo
+utente Windows, e si spegne quando chiudi Revit. Quello che chiedi a Claude e i dati del modello che
+Claude legge con gli strumenti di BIMit (elementi, parametri, configurazioni, file che gli indichi)
+vengono inviati da quel client ad **Anthropic** (o al fornitore del client che usi), con il **tuo**
+account e secondo le sue condizioni e la sua informativa privacy. Per quei dati il titolare è il
+fornitore del client, non DynaTools. Se non attivi Claude (MCP), non cambia nulla.
+
+Ogni Revit con MCP acceso annota in `%LOCALAPPDATA%\BIMit\Mcp\istanze` la sua versione e il suo
+collegamento, perché Claude trovi tutti i Revit aperti; la nota si cancella quando spegni MCP o
+chiudi Revit.
 
 ## Quali dati trattiamo
 
@@ -24,11 +38,15 @@ inviati a nessun server.
 | Nome, cognome, paese, città | Registrazione, profilo | Gestire l'account e l'assistenza, conoscere la diffusione del prodotto | Esecuzione del contratto (art. 6.1.b) |
 | Piano, data di accettazione dei termini | Registrazione | Gestire la licenza | Esecuzione del contratto (art. 6.1.b) |
 | Consenso al marketing e sua data | Se lo dai (facoltativo) | Inviarti novità, guide e offerte su BIMit e sugli altri prodotti DynaTools | Consenso (art. 6.1.a) |
-| Versione di BIMit e di Revit, data dell'ultimo utilizzo | A ogni avvio di Revit | Gestire aggiornamenti e compatibilità | Esecuzione del contratto (art. 6.1.b) |
-| Statistiche d'uso: quali funzioni usi (avvio, comandi, numero di elementi scritti e di errori, tipo di errore) collegate al tuo account | Durante l'uso (disattivabile) | Migliorare il prodotto e correggere errori | Legittimo interesse (art. 6.1.f) |
+| Versione di BIMit e di Revit, data e ora dell'ultimo utilizzo | A ogni avvio di Revit e, mentre Revit è aperto e hai fatto l'accesso, circa ogni 10 minuti | Gestire aggiornamenti e compatibilità, sapere quanti usano BIMit e chi lo sta usando in quel momento | Esecuzione del contratto (art. 6.1.b) |
+| Statistiche d'uso: quali funzioni usi (avvio, comandi, nomi degli strumenti chiamati da Claude e se sono riusciti, numero di elementi scritti e di errori, tipo di errore) collegate al tuo account; mai i contenuti delle richieste | Durante l'uso (disattivabile) | Migliorare il prodotto e correggere errori | Legittimo interesse (art. 6.1.f) |
 | Messaggi di feedback e, se scegli di allegarle, le ultime righe del registro tecnico di BIMit | Quando ci scrivi dal plugin | Rispondere e risolvere il problema | Esecuzione del contratto (art. 6.1.b) |
 
 La password è gestita da Google Firebase Authentication: noi non la vediamo mai.
+
+L'ultimo utilizzo è un solo valore per account (data e ora dell'ultimo segnale, con versione di BIMit e di
+Revit), che viene sovrascritto: non è una cronologia delle tue sessioni. Lo vede solo il titolare, per
+sapere quanti usano BIMit e se in quel momento è aperto.
 
 Puoi disattivare le statistiche d'uso in qualsiasi momento: *BIMit* → *Account* → *Privacy*.
 
