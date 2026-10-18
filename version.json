@@ -1,13 +1,17 @@
 {
-  "latest": "1.0.0",
+  "latest": "1.1.0",
   "minimum": "",
   "disabled": false,
   "message": "",
-  "notes": "BIMit 1.0: Revit 2022–2026. Modalità sviluppatore (pulsante DEV nel pannello MCP Server): Claude esegue C# e Python dentro Revit con tutta la API, cerca nella documentazione della API, ispeziona qualsiasi oggetto ed esegue la tua DLL senza riavviare Revit. Più Revit collegati insieme (anche versioni diverse): Claude li vede tutti e li usa uno alla volta o tutti insieme. Ogni strumento lavora anche su un modello aperto non attivo.",
-  "published": "2026-10-16",
+  "notes": "BIMit 1.1: Esporta tavole e viste rinnovato — PDF combinato o separato con la carta dal cartiglio, DWG, DGN, DWF, NWC, IFC, immagini e dati delle tavole; nomi dai parametri, profili condivisibili, coda, report XLSX/CSV, esportazioni pianificate. BIMit ora è in italiano, português e English (la lingua di Revit, o scegli in Account).",
+  "published": "2026-10-18",
+  "notes_pt": "BIMit 1.1: Exportar folhas e vistas renovado — PDF combinado ou separado com o papel do carimbo, DWG, DGN, DWF, NWC, IFC, imagens e dados das folhas; nomes por parâmetros, perfis compartilháveis, fila, relatório XLSX/CSV, exportações agendadas. O BIMit agora está em italiano, português e inglês (o idioma do Revit, ou escolha em Account).",
+  "notes_en": "BIMit 1.1: new Export sheets and views — combined or separate PDF with the paper from the title block, DWG, DGN, DWF, NWC, IFC, images and sheet data; file names from parameters, shareable profiles, queue, XLSX/CSV report, scheduled exports. BIMit now speaks Italian, Portuguese and English (Revit's language, or choose in Account).",
+  "message_pt": "",
+  "message_en": "",
   "msi": {
-    "url": "https://github.com/DynaTools/BIMit-Release/releases/download/v1.0.0/BIMit_Setup_1.0.0.msi",
-    "sha256": "60c5a5330368be53b7e6d618e1890260b3a3532b28d7d43acb56ab0e11a93cfb",
-    "size": 19685376
+    "url": "https://github.com/DynaTools/BIMit-Release/releases/download/v1.1.0/BIMit_Setup_1.1.0.msi",
+    "sha256": "cd1bbb5e9d6ca2f707fba4a85d3e548739c011a9e93b091b90becfac3c8a82cf",
+    "size": 20475904
   }
 }
